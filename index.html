@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/st.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/logo.png"  type="image/x-icon">
+    <title>FIT TRACK</title>
+</head>
+<body>
+    <div class="menu">
+      <nav class="navbar navbar-expand-lg navbar-light cor-nav">
+        <a class="navbar-brand text-white" href="index.html"><img src="assets/logo-branca.png">Fit Track</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+            <a class="nav-item nav-link active text-white" href="index.html">Home <span class="sr-only"></span></a>
+            <a class="nav-item nav-link text-white" href="login.html">Login</a>
+          </div>
+        </div>
+    </div>
+      </nav>
+  
+    <div>
+        <h1 class="display-3 text-center pt-4">Fit track</h1>
+        <h2 class=" h4 text-center fonte cor-verde">Qual exercício físico você fez hoje?</h2>
+    </div>
+    <div class="container">
+        <form id="form-exercicio" class="row" method="post">
+            <div class="col-lg-10 ">
+                <label for="exerciseName" class="mt-2 fonte">Nome do exercicio:</label>
+                <input class="form-control mt-2" type="text" name="exerciseName" id="exerciseName" placeholder="Digite o nome do exercício" required>
+    
+                <label for="duration" class="mt-2 fonte" >Duração:</label>
+                <input  class="form-control mt-2 " type="text" name="duration" id="duration" placeholder="Duração em minutos" required>
+                <label for="description" class="mt-2 fonte">Descrição:</label>
+                <input class="form-control mt-2 "  type="text" name="description" id="description" placeholder="Fale um pouco sobre sua experiência">
+                
+            </div>
+            <div class="col-lg-10 mt-4 ">
+                <input type="file" id="photo" accept="image/*" required>
+                <button class="btn btn-success" onclick="clicou()" id="botao">Adicionar Exercício</button>
+            </div>
+          
+        </form>
+    </div>
+    <div id="exercise-list" class="lista container mt-3"></div>
+    <script src="/frontend/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+.cor-nav{
+    background-color: #198754;
+}
+.fonte{
+    font-family: "Catamaran", sans-serif;
+}
+
+.cor-verde{
+    color:  #1c985e;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.cor-fundo{
+    background-color: #7ab99c;
+}
+
+.borda{
+    border: 2px #7ab99c solid;
+    border-radius: 8px;
+    margin-top: 4.5rem;
+    max-width: 900px;
+}
+
+.formulario{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.cta{
+    margin-top: 3.5vh;
+    margin-bottom: 3.5vh;
+}

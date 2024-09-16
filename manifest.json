@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Fit track",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Fit track",
+  "start_url": "/",
+  "theme_color": "#198754",
+  "icons": [
+    {
+      "src": "icons/meditation-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "icons/meditation-192.png",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    }
+  ],
+  "description": "Tenha um diario de exercícios na palma da sua mão. Registre como e quando você fez sua ultima atividade física ",
+  "lang": "pt"
+}
